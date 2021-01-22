@@ -24,7 +24,7 @@ Thanks!
 Using the Cordova CLI and NPM, run:
 
 ```
-cordova plugin add https://github.com/CesarBalzer/Cordova-Plugin-BTPrinter.git
+cordova plugin add https://github.com/Ouleur/Cordova-Plugin-BTPrinter.git
 ```
 
 ## Usage
@@ -129,6 +129,7 @@ BTPrinter.setEncoding(function(data){
     console.log(err)
 }, "ISO-8859-1")
 ```
+
 Refer to printer's manual for supported encodings and codepages.
 
 ### Print simple text
@@ -212,7 +213,7 @@ BTPrinter.printPOSCommand(function(data){
 ### Print QRCode
 
 ```javascript
-var data = "https://github.com/CesarBalzer/Cordova-Plugin-BTPrinter";
+var data = "https://github.com/Ouleur/Cordova-Plugin-BTPrinter";
 var align = 1; /* 0, 1, 2 */
 var model = 49; /* https://reference.epson-biz.com/modules/ref_escpos/index.php?content_id=140 */
 var size = 32; /* https://reference.epson-biz.com/modules/ref_escpos/index.php?content_id=141 */
