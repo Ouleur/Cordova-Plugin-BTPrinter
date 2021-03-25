@@ -73,8 +73,6 @@ public class BluetoothPrinter extends CordovaPlugin {
     public static final byte[] CHAR_SIZE_61 = { 0x1B, 0x21, 0x61 };
     public static final byte[] CHAR_SIZE_70 = { 0x1B, 0x21, 0x70 };
     public static final byte[] CHAR_SIZE_71 = { 0x1B, 0x21, 0x71 };
-    public static final byte[] CHAR_SIZE_80 = { 0x1B, 0x21, 0x80 };
-    public static final byte[] CHAR_SIZE_81 = { 0x1B, 0x21, 0x81 };
 
     public static final byte[] UNDERL_OFF = { 0x1b, 0x2d, 0x00 }; // Underline font OFF
     public static final byte[] UNDERL_ON = { 0x1b, 0x2d, 0x01 }; // Underline font 1-dot ON
@@ -471,12 +469,6 @@ public class BluetoothPrinter extends CordovaPlugin {
             break;
         case 71:
             char_size = CHAR_SIZE_71;
-            break;
-        case 80:
-            char_size = CHAR_SIZE_80;
-            break;
-        case 81:
-            char_size = CHAR_SIZE_81;
             break;
         }
 
